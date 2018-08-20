@@ -8,7 +8,8 @@
     "storybook": "start-storybook -c .storybook -p 9001",
     "build-storybook": "build-storybook -c .storybook -o public/storybook",
     "styleguidist": "styleguidist server",
-    "build-styleguidist": "styleguidist build"
+    "build-styleguidist": "styleguidist build",
+    "start": "node index.js"
   },
   "devDependencies": {
     "@storybook/cli": "^4.0.0-alpha.16",
@@ -21,6 +22,10 @@
   },
   "dependencies": {
     "react": "^16.4.2",
-    "react-dom": "^16.4.2"
+    "react-dom": "^16.4.2",
+    "config": "^1.29.4",
+    "express": "^4.16.2",
+    "express-async-errors": "^2.1.0",
+    "winston": "^2.4.0"
   }
 }

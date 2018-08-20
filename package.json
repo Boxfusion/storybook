@@ -1,0 +1,19 @@
+{
+  "name": "storybook-styleguidist",
+  "version": "1.0.0",
+  "description": "A repository of all the common React components used in various Boxfusion projects along with their documentation.",
+  "main": "index.js",
+  "author": "Boxfusion",
+  "scripts": {
+    "storybook": "start-storybook -c .storybook -p 9001",
+    "build-storybook": "build-storybook -c .storybook -o public/styleguidist"
+  },
+  "devDependencies": {
+    "@storybook/react": "^3.4.10",
+    "babel-core": "^6.26.3"
+  },
+  "dependencies": {
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  }
+}

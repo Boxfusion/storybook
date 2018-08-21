@@ -1,0 +1,22 @@
+{
+  "name": "storybook-styleguidist",
+  "description": "A repository of all the common React components used in various Boxfusion projects along with their documentation.",
+  "main": "index.js",
+  "authors": [
+    "Boxfusion"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Boxfusion/storybook-styleguidist",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "skeleton": "^2.0.4"
+  }
+}

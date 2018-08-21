@@ -5,7 +5,7 @@ import { storiesOf } from '@storybook/react';
 import Alert from '../components/Alert/Alert';
 import Badge from '../components/Badge/Badge';
 import Breadcrumb from '../components/Breadcrumb/Breadcrumb';
-import Button from '../components/Breadcrumb/Breadcrumb';
+import Button from '../components/Button/Button';
 import Card from '../components/Card/Card';
 import Carousel from '../components/Carousel/Carousel';
 import Code from '../components/Code/Code';
@@ -27,7 +27,11 @@ storiesOf('Components', module)
     .add('Alert', () => (<Alert />))
     .add('Badge', () => (<Badge />))
     .add('Breadcrumb', () => (<Breadcrumb />))
-    .add('Button', () => (<Button />))
+    .add('Button', () => (
+        <Button>
+            Button
+        </Button>
+    ))
     .add('Card', () => (<Card />))
     .add('Carousel', () => (<Carousel />))
     .add('Code', () => (<Code />))

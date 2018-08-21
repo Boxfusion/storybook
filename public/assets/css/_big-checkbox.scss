@@ -1,0 +1,108 @@
+.big-checkbox-options {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    label {
+        display: inline-block;
+        input[type="checkbox"] {
+            display: none;
+            &:checked {
+                +.box {
+                    background-color: #2196F3;
+                    border: 2px solid #cb2d3e;
+                    border-radius: 5px;
+                    span {
+                        color: white;
+                        transform: translateY(55px);
+                        margin-top: inherit;
+                        &:before {
+                            transform: translateY(0px);
+                            opacity: 1;
+                        }
+                    }
+                    p {
+                        display: none;
+                    }
+                    img {
+                        opacity: 0;
+                    }
+                }
+            }
+        }
+        .box {
+            width: 170px;
+            height: 230px;
+            background-color: #d8d8d8;
+            border: 2px solid #cb2d3e;
+            border-radius: 5px;
+            transition: all 250ms ease;
+            will-change: transition;
+            display: inline-block;
+            text-align: center;
+            cursor: pointer;
+            position: relative;
+            font-weight: 900;
+            &:active {
+                transform: translateY(10px);
+            }
+            img {
+                width: 50px;
+                margin-top: 15px;
+            }
+            span {
+                position: absolute;
+                transform: translate(0, 60px);
+                left: 0;
+                right: 0;
+                transition: all 300ms ease;
+                font-size: 1.5em;
+                user-select: none;
+                color: black;
+                margin-top: 60px;
+                &:before {
+                    font-size: 1.2em;
+                    font-family: FontAwesome;
+                    display: block;
+                    transform: translateY(-80px);
+                    opacity: 0;
+                    transition: all 300ms ease-in-out;
+                    font-weight: normal;
+                    color: white;
+                }
+            }
+            p {
+                position: absolute;
+                transform: translate(0, 60px);
+                left: 0;
+                right: 0;
+                transition: all 300ms ease;
+                font-size: 1.5em;
+                user-select: none;
+                color: black;
+                font-size: 12px;
+                font-weight: 100;
+                margin-left: 10px;
+                margin-right: 10px;
+                margin-top: -50px;
+                &:before {
+                    font-size: 1.2em;
+                    font-family: FontAwesome;
+                    display: block;
+                    transform: translateY(-80px);
+                    opacity: 0;
+                    transition: all 300ms ease-in-out;
+                    font-weight: normal;
+                    color: white;
+                }
+            }
+        }
+        .simple {
+            span {
+                &:before {
+                    content: url('/img/ok.png');
+                }
+            }
+        }
+    }
+}

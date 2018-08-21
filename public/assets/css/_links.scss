@@ -1,0 +1,22 @@
+.links {
+    &.main {
+        margin-bottom: 10px;
+        li {
+            display: inline-block;
+            border-bottom: 4px solid white;
+            margin-right: 10px;
+            a {
+                text-decoration: none;
+                color: white;
+                padding-bottom: 10px;
+                line-height: 2;
+            }
+            &:hover{
+                border-bottom: 4px solid black;
+                a {
+                    color: white;
+                }
+            }
+        }
+    }
+}

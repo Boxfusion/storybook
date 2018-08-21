@@ -114,7 +114,7 @@
 
 @media (min-width: 750px) {
   .hero {
-    height: 290px;
+    height: 480px;
   }
   .hero-heading {
     font-size: 2.6rem;
@@ -154,7 +154,7 @@
     padding: 12rem 0 15rem;
   }
   .hero {
-    padding-top: 15rem;
+    padding-top: 10rem;
     padding-right: 0px;
     padding-bottom: 22rem;
     padding-left: 0px;

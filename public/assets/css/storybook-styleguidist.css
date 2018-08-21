@@ -196,6 +196,22 @@ body {
   .invoice table {
     width: 100%; }
 
+.links.main {
+  margin-bottom: 10px; }
+  .links.main li {
+    display: inline-block;
+    border-bottom: 4px solid white;
+    margin-right: 10px; }
+    .links.main li a {
+      text-decoration: none;
+      color: white;
+      padding-bottom: 10px;
+      line-height: 2; }
+    .links.main li:hover {
+      border-bottom: 4px solid black; }
+      .links.main li:hover a {
+        color: white; }
+
 .long-checkbox-options {
   width: 100%;
   text-align: left;

@@ -7,7 +7,6 @@ This project is designed to run outside of your project. This will allow you to 
 ## Table of contents
 
 -   [Getting Started](#getting-started)
-    -   [Tools](#getting-started)
 -   [Contributing](#contributing)
 
 ## Getting Started
@@ -32,12 +31,42 @@ Once you have installed Sass you can go ahead and install Storybook. For documen
 npm i -g @storybook/cli
 ```
 
-### Styleguidist
+### Development
 
-The last tool required to install before you start development of on the project is Styleguidist. You can head on over to their website https://react-styleguidist.js.org/ for documentation on the tool but if you have have Node installed you can run the following commands to install:
+Once you have installed all the required dependencies for your environment you can start development by running the following commands.
+
+To install the project dependencies to run the app:
 
 ```sh
-npm i -g @storybook/cli
-cd my-react-app
-getstorybook
+npm install
+```
+
+To run storybook and begin watching your changes as you make them run:
+
+```sh
+npm run storybook
+```
+
+To run styleguidist and begin watching your changes as you make them run:
+
+```sh
+npm run styleguidist
+```
+
+To generate the static documentation for storybook run:
+
+```sh
+npm run build-storybook
+```
+
+To generate the static documentation for styleguidist run:
+
+```sh
+npm run build-styleguidist
+```
+
+If you want to demo what the application will look like when it is running in a browser you can run:
+
+```sh
+npm run start
 ```
